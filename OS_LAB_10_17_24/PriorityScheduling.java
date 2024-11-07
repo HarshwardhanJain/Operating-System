@@ -26,10 +26,8 @@ public class PriorityScheduling {
             new Process(5, 5, 2)
         };
 
-        // Sort processes based on priority
         Arrays.sort(processes, Comparator.comparingInt(p -> p.priority));
 
-        // Calculate waiting and turnaround times
         calculateTimes(processes);
 
         printResults(processes);
