@@ -32,7 +32,6 @@ public class PriorityScheduling {
         // Calculate waiting and turnaround times
         calculateTimes(processes);
 
-        // Print results
         printResults(processes);
     }
 
